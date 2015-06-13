@@ -10,16 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+
+    @IBAction func onLogin(sender: AnyObject) {
+        if equal(self.username.text, "kare") && equal(self.password.text, "kare123") {
+            self.performSegueWithIdentifier("SHOW_HOME", sender: self)
+        } else {
+            UIAlertView(title: nil, message: "密码不正确", delegate: nil, cancelButtonTitle: "OK").show()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

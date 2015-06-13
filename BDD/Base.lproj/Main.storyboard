@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="30" id="odA-rC-THK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eNP-y4-bJx">
                                 <rect key="frame" x="16" y="110" width="268" height="30"/>
@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="30" id="kik-gd-ej4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWV-2f-KRe">
                                 <rect key="frame" x="16" y="154" width="268" height="30"/>
@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="29" y="439"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="8gm-Pp-q5T">
             <objects>
                 <viewController id="778-Gu-god" customClass="ViewController" customModule="BDD" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,6 +85,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="lPz-DF-BFu"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="300" height="300"/>
                 </viewController>
